@@ -10,10 +10,8 @@
 # License       :Apache License Vers 2.0
 #
 
-# Read graphsar.properties file
-. graphsar.properties
 
-cd plotters/matplotlib
+cd matplotlib
 python loadaverage.py
 python tasks.py
 python cpu.py

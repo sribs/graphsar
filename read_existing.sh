@@ -53,7 +53,7 @@ if [ "$#" -eq 0 ];then
 	echo -n "Please provide the required Arguments "
 	
 elif [ "$#" -ne 0 ];then
-	while getopts ":f:s:e:m:lh" opt; do
+	while getopts ":f:s:e:i:lh" opt; do
 		case $opt in
 			"f")
 				sa_file="$OPTARG"
